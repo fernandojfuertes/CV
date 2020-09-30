@@ -1,50 +1,8 @@
 body {
   margin: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  text-align: left;
+  text-align: justify;
 }
-
-hr {
-  width: 80%;
-}
-
-p {
-  font-size: .6em;
-}
-
-.container {
-  display: flex;
-}
-
-/*INICIO SIDEBAR*/
-.foto img {
-  border-radius: 50%;
-  width: 85%;
-  margin: 10% 7%;
-}
-
-.sidebar {
-  background-color: #203864;
-  width: 30%;
-}
-
-.sidebar h2 {
-  margin: 5px auto;
-  color: white;
-  text-align: center;
-  font-size: 0.8em;
-}
-
-.sidebar p {
-  width: 90%;
-  color: white;
-  font-size: 0.47em;
-  margin: 5px auto;
-}
-
-/*FIN SIDEBAR*/
-
-/*INICIO MAIN*/
 
 main {
   width: 80%;
@@ -52,20 +10,31 @@ main {
   padding-right: 1%;
 }
 
-.about-me h1 {
-  font-size: 1.5em;
-  margin: 14px auto;
-  padding-left: 7px;
+hr {
+  width: 80%;
 }
 
-.about-me p {
-  width: 95%;
-  font-size: .8em;
-  margin: 14px auto;
+.container {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.90);
 }
 
-main h2 {
-  font-size: 1.3em;
+.sidebar {
+  background-color: #203864;
+  width: 30%;
+  max-width: 170px;
+}
+
+.sidebar hr {
+  width: 25%;
+}
+
+.foto img {
+  border-radius: 50%;
+  width: 85%;
+  margin: 10% 7%;
 }
 
 .experiencia {
@@ -76,33 +45,123 @@ main h2 {
   width: 68%;
 }
 
-.exp-prof p,
-.exp-prof li {
-  font-size: .6em;
+@media (min-width: 375px) {
+
+  p {
+    font-size: .6em;
+  }
+
+  /*INICIO SIDEBAR*/
+  .sidebar h2 {
+    margin: 5px auto;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+  }
+
+  .sidebar p {
+    width: 90%;
+    color: white;
+    font-size: 0.47em;
+    margin: 5px auto;
+  }
+
+  /*FIN SIDEBAR*/
+
+  /*INICIO MAIN*/
+  .about-me h1 {
+    font-size: 1.5em;
+    margin: 14px auto;
+    padding-left: 7px;
+  }
+
+  .about-me p {
+    width: 95%;
+    font-size: .8em;
+    margin: 14px auto;
+  }
+
+  main h2 {
+    font-size: 1.3em;
+    padding-left: 7px;
+    margin: 10px;
+  }
+
+  .exp-prof {
+    padding-left: 7px;
+  }
+
+  .exp-prof p,
+  .exp-prof li {
+    font-size: .6em;
+  }
+
+  .exp-prof p {
+    margin: 0 7px;
+  }
+
+  .exp-prof ul {
+    padding-left: 20px;
+    margin: 5px auto;
+  }
+
+  .exp-prof h3 {
+    font-size: .99em;
+    margin: 0 7px;
+  }
+
+  .exp-prof i {
+    font-size: .64em;
+    margin: 0 7px;
+  }
+
+  .exp-fechas p {
+    font-size: .5em;
+    margin-top: 4px;
+  }
+
+  /*FIN MAIN*/
 }
 
-.exp-prof p {
-  margin: 0 7px;
-}
+@media (min-width: 768px) {
+  p {
+    font-size: .8em;
+  }
 
-.exp-prof ul {
-  padding-left: 20px;
-  margin: 5px auto;
-}
+  .sidebar h2 {
+    font-size: 1.7em;
+  }
 
-.exp-prof h3 {
-  font-size: .99em;
-  margin: 0 7px;
-}
+  .sidebar p {
+    font-size: .775em;
+  }
 
-.exp-prof i {
-  font-size: .64em;
-  margin: 0 7px;
-}
+  .about-me h1 {
+    font-size: 3em;
+  }
 
-.exp-fechas p {
-  font-size: .5em;
-  margin-top: 4px;
-}
+  .about-me p {
+    font-size: 1em;
+  }
 
-/*FIN MAIN*/
+  main h2 {
+    font-size: 2em;
+  }
+
+  .exp-fechas p {
+    font-size: .9em;
+  }
+
+  .exp-prof h3 {
+    font-size: 1.3em;
+  }
+
+  .exp-prof i {
+    font-size: .9em;
+  }
+
+  .exp-prof p,
+  .exp-prof li {
+    font-size: .8em;
+  }
+}
