@@ -1,94 +1,111 @@
 body {
   margin: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  text-align: justify;
+  text-align: left;
 }
 
 hr {
   width: 80%;
 }
 
-h1 {
-  font-size: 3em;
-}
-
-h2 {
-  font-size: 2em;
-}
-
-h3 {
-  font-size: 1.50em;
-}
-
-.exp-fechas p {
-  font-size: 1.5em;
-}
-
-p,
-li,
-i {
-  font-size: 1.3em;
-}
-
-main {
-  padding-left: 1%;
-  padding-right: 1%;
+p {
+  font-size: .6em;
 }
 
 .container {
   display: flex;
 }
 
-.sidebar {
-  background-color: #203864;
-  width: 20%;
+/*INICIO SIDEBAR*/
+.foto img {
+  border-radius: 50%;
+  width: 85%;
+  margin: 10% 7%;
 }
 
-.sidebar .foto,
-.contact-me {
-  width: 100%;
+.sidebar {
+  background-color: #203864;
+  width: 30%;
 }
 
 .sidebar h2 {
   margin: 5px auto;
   color: white;
   text-align: center;
+  font-size: 0.8em;
 }
 
-.sidebar li {
-  list-style: none;
-  color: white;
-  font-size: 1em;
-}
-
-.foto img {
-  border-radius: 50%;
-  width: 85%;
-  margin: 10% 7%;
-
-}
-
-.contact-me p {
+.sidebar p {
   width: 90%;
   color: white;
-  font-size: 1em;
+  font-size: 0.47em;
   margin: 5px auto;
 }
 
+/*FIN SIDEBAR*/
+
+/*INICIO MAIN*/
+
 main {
   width: 80%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.about-me h1 {
+  font-size: 1.5em;
+  margin: 14px auto;
+  padding-left: 7px;
+}
+
+.about-me p {
+  width: 95%;
+  font-size: .8em;
+  margin: 14px auto;
+}
+
+main h2 {
+  font-size: 1.3em;
 }
 
 .experiencia {
   display: flex;
 }
 
-.exp-fechas {
-  width: 20%;
-  text-align: right;
-  margin-right: 2%;
+.exp-descripcion {
+  width: 68%;
 }
 
-.exp-descripcion {
-  width: 80%
+/**/
+.exp-prof p,
+.exp-prof li {
+  font-size: .6em;
 }
+
+.exp-prof p {
+  margin: 0 7px;
+}
+
+.exp-prof ul {
+  padding-left: 20px;
+  margin: 5px auto;
+}
+
+.exp-prof h3 {
+  font-size: .99em;
+  margin: 0 7px;
+}
+
+.exp-prof i {
+  font-size: .64em;
+  margin: 0 7px;
+}
+
+.exp-fechas p {
+  font-size: .5em;
+  margin-top: 4px;
+}
+
+/**/
+
+/*FIN MAIN*/
