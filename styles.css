@@ -1,14 +1,15 @@
 body {
   margin: 0;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
   text-align: justify;
   background-color: lightgrey;
+  font-family: 'Mulish', sans-serif;
 }
 
 main {
   width: 80%;
   padding-left: 1%;
-  padding-right: 1%;
+  padding-right: 4%;
   background-color: white;
 }
 
@@ -37,7 +38,7 @@ hr {
   border-radius: 50%;
   border-style: groove;
   width: 85%;
-  margin: 10% 7%;
+  margin: 10% 5%;
 }
 
 .experiencia {
@@ -136,7 +137,7 @@ hr {
   }
 
   .sidebar p {
-    font-size: .775em;
+    font-size: .65em;
   }
 
   .about-me h1 {
@@ -153,7 +154,7 @@ hr {
 
   .exp-fechas p {
     font-size: 1.16em;
-    min-width: 140px;
+    min-width: 171px;
   }
 
   .exp-prof h3 {
