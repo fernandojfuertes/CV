@@ -68,7 +68,7 @@ hr {
     color: white;
     font-size: 0.37em;
     margin: 5px auto;
-	text-align: center;
+    text-align: center;
   }
 
   /*FIN SIDEBAR*/
@@ -154,6 +154,10 @@ hr {
     font-size: 2em;
   }
 
+  .experiencia {
+    padding-bottom: 15px;
+  }
+
   .exp-fechas p {
     font-size: 1.16em;
     min-width: 171px;
@@ -167,9 +171,18 @@ hr {
     font-size: 1.1em;
   }
 
+  .exp-prof li {
+    margin-left: 15px;
+  }
+
   .exp-prof p,
   .exp-prof li {
     font-size: 1em;
+  }
+
+  #certificacion,
+  #educacion {
+    font-size: 1.3em;
   }
 
 }
