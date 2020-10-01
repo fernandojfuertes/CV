@@ -2,19 +2,21 @@ body {
   margin: 0;
   /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
   text-align: justify;
-  background-color: lightgrey;
+  background-color: #FBD46D;
   font-family: 'Mulish', sans-serif;
+  color: #07031A;
 }
 
 main {
   width: 80%;
   padding-left: 1%;
   padding-right: 4%;
-  background-color: white;
+  background-color: #F4F6FF;
 }
 
 hr {
   width: 80%;
+  /*border-color: #126c85;*/
 }
 
 .container {
@@ -25,9 +27,18 @@ hr {
 }
 
 .sidebar {
-  background-color: #203864;
+  background-color: #4F8A8B;
   width: 30%;
   max-width: 170px;
+  /*color: white;*/
+}
+
+.sidebar h2 {
+  text-align: center;
+}
+
+.sidebar p {
+  width: 90%;
 }
 
 .sidebar hr {
@@ -39,6 +50,18 @@ hr {
   border-style: groove;
   width: 85%;
   margin: 10% 5%;
+}
+
+.contact-me p {
+  text-align: right;
+}
+
+.idiomas p {
+  text-align: center;
+}
+
+.about-me p {
+  width: 95%;
 }
 
 .experiencia {
@@ -58,17 +81,12 @@ hr {
   /*INICIO SIDEBAR*/
   .sidebar h2 {
     margin: 5px auto;
-    color: white;
-    text-align: center;
     font-size: 0.8em;
   }
 
   .sidebar p {
-    width: 90%;
-    color: white;
     font-size: 0.37em;
     margin: 5px auto;
-    text-align: center;
   }
 
   /*FIN SIDEBAR*/
@@ -81,7 +99,6 @@ hr {
   }
 
   .about-me p {
-    width: 95%;
     font-size: .6em;
     margin: 14px auto;
   }
