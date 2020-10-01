@@ -19,6 +19,16 @@ hr {
   /*border-color: #126c85;*/
 }
 
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 .container {
   display: flex;
   max-width: 900px;
