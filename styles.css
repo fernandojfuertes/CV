@@ -16,7 +16,8 @@ main {
 
 hr {
   width: 80%;
-  /*border-color: #126c85;*/
+  background-color: #07031A;
+  border-color: #07031A;
 }
 
 a {
@@ -31,7 +32,7 @@ a:hover {
 
 .container {
   display: flex;
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
   box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.90);
 }
@@ -39,7 +40,7 @@ a:hover {
 .sidebar {
   background-color: #4F8A8B;
   width: 30%;
-  max-width: 170px;
+  /*max-width: 170px;*/
   /*color: white;*/
 }
 
@@ -58,8 +59,10 @@ a:hover {
 .foto img {
   border-radius: 50%;
   border-style: groove;
+  border-color: #07031A;
   width: 85%;
   margin: 10% 5%;
+  box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.90);
 }
 
 .contact-me p {
@@ -166,7 +169,7 @@ a:hover {
   }
 
   .sidebar p {
-    font-size: .65em;
+    font-size: 1em;
   }
 
   .about-me h1 {
@@ -174,7 +177,7 @@ a:hover {
   }
 
   .about-me p {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   main h2 {
