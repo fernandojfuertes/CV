@@ -159,6 +159,22 @@ a:hover {
   /*FIN MAIN*/
 }
 
+@media (min-width: 425px) {
+  .sidebar p {
+    font-size: 0.42em;
+  }
+
+  exp-prof p,
+  exp-prof li {
+    font-size: .575em;
+  }
+
+  .exp-prof i {
+    font-size: .86em;
+  }
+
+}
+
 @media (min-width: 768px) {
   p {
     font-size: 1em;
