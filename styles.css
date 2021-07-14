@@ -2,7 +2,8 @@ body {
   margin: 0;
   /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
   text-align: justify;
-  background-color: #FBD46D;
+  /*background-color: #FBD46D;*/
+  background-color: #0C1113;
   font-family: 'Mulish', sans-serif;
   color: #07031A;
 }
@@ -11,7 +12,8 @@ main {
   width: 80%;
   padding-left: 1%;
   padding-right: 4%;
-  background-color: #FAFAFA;
+  /*background-color: #FAFAFA;*/
+  background-color: #E3E3DD;
   box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.90);
 }
 
@@ -41,7 +43,8 @@ a:hover {
 }
 
 .sidebar {
-  background-color: #4F8A8B;
+  /*background-color: #4F8A8B;*/
+  background-color: #064759;
   width: 30%;
   /*max-width: 170px;*/
   /*color: white;*/
