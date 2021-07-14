@@ -3,7 +3,7 @@ body {
   /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   text-align: justify;*/
   /*background-color: #FBD46D;*/
-  background-color: #0C1113;
+  background-color: #282828;
   font-family: 'Mulish', sans-serif;
   color: #07031A;
 }
@@ -44,7 +44,7 @@ a:hover {
 
 .sidebar {
   /*background-color: #4F8A8B;*/
-  background-color: #08718C;
+  background-color: #304145;
   width: 30%;
   /*max-width: 170px;*/
   /*color: white;*/
